@@ -9,11 +9,11 @@
 <body>
     <h1> Sčítání lidu </h1>
      <form action="submit.php" method ="post">
-      <label for="fullname">Jméno a Příjmení : </label>    
-      <input type="text" name="fullname" id ="fullname" >
+      <label for="username">Uživatelské jméno : </label>    
+      <input type="text" name="username" id ="username" >
       <br>
-      <label for="age">Věk :</label> 
-      <input type="number" name= 'age' id='age' min='0' max='150'>
+      <label for="password">Vaše heslo :</label> 
+      <input type="password" name= 'password' id='password'>
       <br>
       <input type="submit" value= 'Odeslat' > 
     </form>
