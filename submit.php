@@ -11,13 +11,13 @@
       <?php
       $username = filter_input(INPUT_POST,'username');
       $password = filter_input(INPUT_POST,'password');
-      echo "Bylo vyplněno jméno : $username <br> ";
-      echo "Vaše heslo $password <br> ";
+      echo "Bylo vyplněno jméno $username <br>";
+      echo "Bylo vyplněno vaše heslo $password";
 
      if (($username =='Jaroslav Melichar') && ($password == '1892')){
-         echo "úspěšně jste se přihlásil";}
-    else 
-    echo "Nepodařilo se přihlásit"
+         echo  "úspěšně jste se přihlásil";}
+    else {
+    echo "Nepodařilo se přihlásit";}
 
       
       ?>
