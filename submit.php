@@ -10,14 +10,14 @@
     <h1>Vyplněná data</h1>
       <?php
       $username = filter_input(INPUT_POST,'username');
-      $password = filter_input(INPUT_POST,'age');
-      echo 'Bylo vyplněno jméno : $username <br> ';
-      echo 'Heslo bylo zadáno : $password';
+      $password = filter_input(INPUT_POST,'password');
+      echo "Bylo vyplněno jméno : $username <br> ";
+      echo "Heslo bylo zadáno správně
 
-      if(($password >= 1892) && ($username == 'Jaroslav Melichar')) {
-          echo 'Uživatelské jméno a heslo bylo správně zadané';
+      if(($password >= 1892) && ($username == "Jaroslav Melichar")) {
+          echo "Uživatelské jméno a heslo bylo správně zadané";
       } else {
-          echo 'Máš smůlu a nepomatuješ si svoje údaje !';
+          echo "Máš smůlu a nepomatuješ si svoje údaje !";
       }
 
       
