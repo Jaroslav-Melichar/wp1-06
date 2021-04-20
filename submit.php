@@ -12,9 +12,9 @@
       $username = filter_input(INPUT_POST,'username');
       $password = filter_input(INPUT_POST,'password');
       echo "Bylo vyplněno jméno : $username <br> ";
-      echo "Heslo bylo zadáno správně
+      echo "Heslo bylo zadáno správně";
 
-      if(($password >= 1892) && ($username == "Jaroslav Melichar")) {
+      if(($password >= 1892) && ($username == 'Jaroslav Melichar')) {
           echo "Uživatelské jméno a heslo bylo správně zadané";
       } else {
           echo "Máš smůlu a nepomatuješ si svoje údaje !";
